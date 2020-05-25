@@ -1,8 +1,8 @@
-# piwik(Matoma)的安装
+# piwik(Matomo)的安装
 
 Piwik 是一套基于 Php+MySQL 技术构建，能够与 Google Analytics 相媲美的开源网站访问统计系统。Piwik 可以给你详细的统计信息，比如网页浏览人数, 访问最多的页面, 搜索引擎关键词等等，并且采用了大量的AJAX/Flash技术，使得在操作上更加便易。
 
-现在piwik最新版本已经更名为Matoma
+现在piwik最新版本已经更名为Matomo
 ## 1、php的安装
 - **说明** 
     
