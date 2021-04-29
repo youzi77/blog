@@ -22,3 +22,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 source /etc/profile
 java -version
 ```
+
+## 查询端口占用
+`lsof -i tcp:8080`
