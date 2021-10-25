@@ -1,5 +1,5 @@
+### 挂载分区
 
-## 挂载分区
 ```
 pvcreate /dev/vdb
 vgdisplay
@@ -10,7 +10,8 @@ xfs_growfs /dev/mapper/centos-home
 df -hl
 ```
 
-## 安装jdk
+### 安装jdk
+
 ```
 vi /etc/profile
 
@@ -23,5 +24,45 @@ source /etc/profile
 java -version
 ```
 
-## 查询端口占用
+### 查询端口占用
+
 `lsof -i tcp:8080`
+
+### shh连接
+
+- 普通密码连接
+
+  ```
+  ssh -p 端口号 用户@地址
+  ```
+
+- 证书连接
+
+  ```
+  ssh -i 证书地址 用户@地址
+  ```
+
+
+
+### 查看磁盘大小
+
+```linux
+Df -h
+```
+
+### scp复制文件
+
+- 普通账号密码
+
+  ```linux
+  scp /home/space/music/1.mp3 root@www.runoob.com:/home/root/others/music 
+  ```
+
+- 使用秘钥
+
+  ```
+  scp -i 秘钥 上传文件 用户@地址:上传路径
+  ```
+
+  
+

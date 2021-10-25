@@ -60,9 +60,9 @@ EPEL（Extra Packages for Enterprise Linux）企业版Linux额外包，PHEL分�
 
 
     `yum whatprovides libSM.so.6`
-
+    
     [../blog/images/linux.png]
-
+    
     `sudo yum install libSM-1.2.2-2.el7.x86_64 --setopt=protected_multilib=false`
 
 - python 调用opencv
@@ -86,12 +86,11 @@ EPEL（Extra Packages for Enterprise Linux）企业版Linux额外包，PHEL分�
 - libgomp.so.1 错误
     ```
     strings /root/anaconda3/bin/../lib/libgomp.so.1 | grep GOMP
-
+    
     cp /usr/lib/libgomp.so.1.0.0 /root/anaconda3/lib
     
     rm -f libgomp.so.1
     
     ln -s libgomp.so.1.0.0 libgomp.so.1
     ```
-
 

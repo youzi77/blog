@@ -18,3 +18,12 @@ docker run -d \
     -e MYSQL_ROOT_PASSWORD=linewell@2020 \
     mysql:5.7 \
     --lower_case_table_names=1
+
+
+
+## docker 进入mysql
+
+```ruby
+docker exec -it 89c5b9c81e74  bash
+
+```
