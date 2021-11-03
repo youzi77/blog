@@ -28,6 +28,8 @@ java -version
 
 `lsof -i tcp:8080`
 
+`netstat -anp |grep `
+
 ### shh连接
 
 - 普通密码连接
