@@ -68,3 +68,10 @@ Df -h
 
   
 
+### jar的解压和重新压缩
+
+```linux
+jar cvfM0 springcloud-zuul.jar *                 // 压缩当前目前所有文件到.jar
+jar cvfM0 spring-zuul.jar E:/springcloud-zuul/   // 指定压缩目录
+```
+
