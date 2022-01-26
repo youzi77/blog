@@ -311,5 +311,10 @@ net.ipv4.conf.ppp0.send_redirects = 0
 
 	systemctl enable xl2tpd
 
-
 原文链接：https://blog.csdn.net/iruier_/article/details/104294045
+
+
+
+## 注意事项
+
+服务器需要打开响应端口
