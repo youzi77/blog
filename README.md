@@ -32,6 +32,9 @@
      -  [图片裁剪等处理工具类.md](java/开发工具类/图片裁剪等处理工具类.md) 
      -  [ConvertUtil深度coyp工具类.md](java/开发工具类/ConvertUtil深度coyp工具类.md) 
      -  [redis工具类.md](java/开发工具类/redis工具类.md) 
+     -  [雪花算法.md](java/开发工具类/雪花算法.md) 
+     -  [参数根据accsii排序](/java/开发工具类/参数根据accsii排序.md)
+     -  [参数根据accsii排序](/java/开发工具类/参数根据accsii排序.md)
 - html
   - uniapp
     1.  [uniapp.md](html/uniapp/uniapp.md) 
