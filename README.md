@@ -34,7 +34,7 @@
      -  [redis工具类.md](java/开发工具类/redis工具类.md) 
      -  [雪花算法.md](java/开发工具类/雪花算法.md) 
      -  [参数根据accsii排序](/java/开发工具类/参数根据accsii排序.md)
-     -  [参数根据accsii排序](/java/开发工具类/参数根据accsii排序.md)
+     -  [一些常用第三方工具类使用](/java/开发工具类/一些常用工具类引用和使用.md)
 - html
   - uniapp
     1.  [uniapp.md](html/uniapp/uniapp.md) 

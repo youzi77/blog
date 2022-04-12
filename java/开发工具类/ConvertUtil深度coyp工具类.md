@@ -1,5 +1,4 @@
 ```java
-package com.linewell.offices.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
