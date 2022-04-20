@@ -36,7 +36,7 @@
         - 使用命令进入docker的oracle镜像中
 
             ```linux
-            docker exec -it oracle11 bash
+            docker exec -it oracle11g bash
             ```
 
         - 执行登录数据库

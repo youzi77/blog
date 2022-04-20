@@ -141,3 +141,13 @@ jar xvf test.jar   //解压缩
 unzip xxx.war -d /home/aaa ：
 ```
 
+### 查找进程
+```
+ps -aux | grep nginx
+```
+
+### 加入开机启动
+
+```
+systemctl start nginx
+```
