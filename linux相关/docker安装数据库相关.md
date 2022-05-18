@@ -1,5 +1,6 @@
 # docker安装数据库相关操作
 
+官网地址https://github.com/alibaba/druid
 ## docker安装oracle11g
 
 - 安装docker环境
@@ -64,7 +65,7 @@
 
             ```oracle
             sqlplus /nolog   --登录
-            conn /as sysdba  --
+            conn /as sysdba  --切换管理员
             alter user system identified by system;--修改system用户账号密码；
             alter user sys identified by system;--修改sys用户账号密码；
             create user test identified by test; -- 创建内部管理员账号密码；

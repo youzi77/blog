@@ -25,3 +25,11 @@
 - 查看redis进程：`ps -ef | grep redis`
 - 设置redis为开机自启动：`chkconfig redis on`
 
+### redis连接
+```bash
+redis-cli -h localhost -p 6379
+# 查找配置
+config get dir
+# 修改配置
+config set dir /var/lib/redis
+
